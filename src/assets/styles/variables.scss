@@ -1,0 +1,84 @@
+// FONTS
+$font-main: "SourceSansPro", sans-serif;
+$font-second: "Merriweather", sans-serif;
+$root-font-size: 16px;
+
+// RADIUS
+$border-radius-10: 10px;
+$border-radius-12: 12px;
+$border-radius-16: 16px;
+$border-radius-20: 20px;
+$border-radius-24: 24px;
+$border-radius-30: 30px;
+
+$border-radius-button: $border-radius-30;
+$border-radius-dropdown: $border-radius-12;
+$border-radius-input: 0;
+
+// GENERAL COLORS
+$main-color-1: #8DDD8D;
+$second-color: #2B2B2B;
+
+// TEXT COLORS;
+$text-color-1: #FFFFFF; //Основной цвет текста
+$text-color-2: #BABABA; //цвет текста в карточках и мелком тексте
+$text-color-3: #2B2B2B; // серый
+$text-color-4: #000000;
+
+// BG COLORS
+$bg-color-1: #131313;
+$bg-color-2: #6066EE;
+$bg-color-3: #E0E055;
+$bg-color-4: #F5AAFC;
+$bg-color-5: #FFFFFF;
+
+// $bg-linear: linear-gradient(180deg,#2d2d2f 0%,#131316 100%); //gradient если нужен будет
+
+
+// BTN BG COLORS;
+$btn-color-1: #2B2B2B; // Главная кнопка (дубль мейн цвета)
+$btn-color-2: #fff; // кнопка в контактах
+
+// BTN TEXT COLORS;
+$btn-text-1: #FFFFFF; // цвет текста Главная кнопка
+$btn-text-2: #2B2B2B; // цвет текста второстепернная
+
+// BORDER COLORS;
+$border-color-1: #2B2B2B;
+$border-color-2: #424242;
+
+// ERROR COLORS;
+$error-color: #ED625F;
+
+// NAV
+$nav-bg: $bg-color-1; //.nav
+$nav-sticky: #000;
+$bg-dropdown-list: rgba(#000, .25); // radial-gradient(53.79% 32.58% at 50% 0%, rgba(146, 102, 255, 0.2) 0%, rgba(146, 102, 255, 0) 100%); //выпадашки фон
+$border-dropdown-list: $border-color-1; // если нужна рамка выпадашки
+
+// FORMS
+$input-bg-color-1: transparent;
+$input-border-color-1: $border-color-2;
+$input-label-color-1: $text-color-4;
+$input-text-color-1: $text-color-3;
+
+// POPUP
+$popup-bg: $bg-color-5;
+
+// DATAPICKER
+$bg-datepicker: $bg-color-5;
+$bg-datepicker-color-hover: rgba($main-color-1, .2);
+$bg-datapicker-after: #fff;
+$border-datapicker-after: rgba($border-color-1, .2);
+$text-datepicker: $text-color-3;
+$text-disable-datepicker: $text-color-2;
+
+$bg-timepicker-row: rgba($main-color-1, .2);
+
+// SELECT
+$bg-select-color: $bg-color-5;
+$bg-hover-select-color: $main-color-1;
+$border-select-color: 0px solid transparent;
+$bg-shadow-select-color: rgba($bg-color-1, .3);
+$text-select-color: $text-color-3;
+$text-hover-select-color: $text-color-1;
